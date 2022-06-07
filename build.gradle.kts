@@ -15,6 +15,10 @@ repositories {
 
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-aop
+    implementation("org.springframework.boot:spring-boot-starter-aop")
+
     testImplementation(kotlin("test"))
 }
 
