@@ -22,6 +22,10 @@ dependencies {
     testImplementation(kotlin("test"))
 }
 
+tasks.compileKotlin {
+    kotlinOptions.freeCompilerArgs += "-java-parameters"
+}
+
 springBoot {
     mainClass.set("io.beautrace.spring.servlet.app.MainKt")
 }
