@@ -1,1 +1,1 @@
-rootProject.name = "beautrace"
+rootProject.name = "beautrace-spring-servlet-app"
