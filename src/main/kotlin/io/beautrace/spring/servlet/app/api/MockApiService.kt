@@ -20,4 +20,13 @@ open class MockApiService(
         mockService.doWork()
         return true
     }
+
+    @GetMapping(path = ["/exception"])
+    open fun doWorkWithException(
+        @RequestParam(required = false) argOne: Int?,
+        @RequestParam(required = false) argTwo: String?,
+    ): Boolean {
+        mockService.doWork()
+        throw IllegalStateException("exception!")
+    }
 }
