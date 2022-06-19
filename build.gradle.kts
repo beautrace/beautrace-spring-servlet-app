@@ -23,7 +23,9 @@ dependencies {
 }
 
 tasks.compileKotlin {
-    kotlinOptions.freeCompilerArgs += "-java-parameters"
+    kotlinOptions {
+        javaParameters = true
+    }
 }
 
 springBoot {
@@ -35,5 +37,5 @@ tasks.test {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "11"
+    kotlinOptions.jvmTarget = "1.8"
 }
