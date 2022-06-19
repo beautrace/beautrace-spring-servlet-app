@@ -6,7 +6,7 @@ plugins {
 }
 apply(plugin = "io.spring.dependency-management")
 
-group = "io.beautrace"
+group = "com.beautrace"
 version = "1.0.0"
 
 repositories {
@@ -17,7 +17,7 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
 
-    implementation("io.beautrace:beautrace-spring-servlet:1.0.0")
+    implementation("com.beautrace:beautrace-spring-servlet:1.0.0")
 
     testImplementation(kotlin("test"))
 }
@@ -29,7 +29,7 @@ tasks.compileKotlin {
 }
 
 springBoot {
-    mainClass.set("io.beautrace.spring.servlet.app.MainKt")
+    mainClass.set("com.beautrace.spring.servlet.app.MainKt")
 }
 
 tasks.test {

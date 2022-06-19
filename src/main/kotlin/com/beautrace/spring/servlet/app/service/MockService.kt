@@ -1,4 +1,4 @@
-package io.beautrace.spring.servlet.app.service
+package com.beautrace.spring.servlet.app.service
 
 import org.springframework.stereotype.Service
 

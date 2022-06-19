@@ -1,6 +1,6 @@
-package io.beautrace.spring.servlet.app.api
+package com.beautrace.spring.servlet.app.api
 
-import io.beautrace.spring.servlet.app.service.MockService
+import com.beautrace.spring.servlet.app.service.MockService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RequestParam
