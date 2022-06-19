@@ -41,3 +41,7 @@ File contents look like the following:
 
 Each line represents tracing for a different request. Each line is a json object. You can now pick your favorite json parser
 and explore tracing for a request of your interest.
+
+# Explore library docs
+
+Here: https://github.com/beautrace/beautrace-spring-servlet
