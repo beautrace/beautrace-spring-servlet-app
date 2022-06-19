@@ -1,10 +1,10 @@
-## What is it?
+# What is it?
 
 Spring Boot app on Kotlin / Gradle to showcase Beautrace library. It traces execution of methods per each [Spring](https://spring.io/) Servlet's HTTP request.
 
 Check the library docs here: https://github.com/beautrace/beautrace-spring-servlet
 
-## Quickstart
+# Quickstart
 
 ### Windows
 
