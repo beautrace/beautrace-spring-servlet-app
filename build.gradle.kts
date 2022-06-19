@@ -17,7 +17,7 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
 
-    implementation("com.beautrace:beautrace-spring-servlet:1.0.0")
+    runtimeOnly("com.beautrace:beautrace-spring-servlet:1.0.0")
 
     testImplementation(kotlin("test"))
 }
