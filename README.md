@@ -32,9 +32,9 @@ The output file is stored in your home directory.
 On Linux, MacOS the path to file is `~/beautrace.json`.
 
 File contents look like the following:
-```json
+```jsonc
 ...
-{"request":"GET /api/exception?argOne=1234&argTwo=wow%20string,"methodCalls":[...]}
+{"request":"GET /api/exception?argOne=1234&argTwo=wow%20string","methodCalls":[...]}
 {"request":"GET /api/exception?argOne=1234&argTwo=wow%20string","methodCalls":[...]}
 ...
 ```
