@@ -7,7 +7,7 @@ plugins {
 apply(plugin = "io.spring.dependency-management")
 
 group = "com.beautrace"
-version = "1.0.0"
+version = "1.0.2"
 
 repositories {
     mavenLocal()
@@ -17,7 +17,7 @@ repositories {
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
 
-    runtimeOnly("com.beautrace:beautrace-spring-servlet:1.0.0")
+    runtimeOnly("com.beautrace:beautrace-spring-servlet:1.0.2")
 
     testImplementation(kotlin("test"))
 }
